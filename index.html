@@ -54,7 +54,15 @@
 
 
 /*responsive*/
-
+@media screen and (max-width: 800px) {
+  .tv-container{
+    padding-left:30px;
+    display:grid;
+    grid-template-columns: repeat(3,minmax(0,1fr));
+    gap: 15px;
+    grid-column:2/ span 3;
+}
+}
 
 </style>
 <body>
